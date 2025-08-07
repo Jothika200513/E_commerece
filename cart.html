@@ -10,46 +10,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1 class="h1 mt-4">Cart page</h1>
-    <!-- first product start -->
-    <div class="product-container">
-    <div class="product-card">
-  <img src="./images/lipstick2.png" class="card-img-top" alt="...">
-    <h3>FACES CANADA</h3>
-    <p> Comfy Matte Wow Liquid Lipstick</p>
-    <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i>227</p>
-    <div class="quantity">
-        Qty:<input type="number" value="1">
+     <h1 class="h1 mt-4">Cart page</h1> 
+    
+   <!-- Product 1 -->
+  <div class="cart-container mt-4">
+    <div class="cart-item">
+      <img src="./images/lipstick2.png" alt="Lipstick">
+      <div class="item-details">
+        <h3 class="mt-5">Swiss Beauty Matte Crayon Lipstick</h3>
+        <p><span class="price">₹224</span> <span class="mrp">₹299</span> <span class="offer">25% Off</span></p>
+        <label for="qty1" value="1">Qty</label>
+        </select>
+      </div>
     </div>
-     <button class="button mt-3"><a href="./order.html">Buy Now</button></a>
-     <button class="button mt-3">Remove</button>
+   
+      <div class="total">
+      <p>Total: ₹<span id="total">224</span></p>
+      </div>
+
+  <div class="button-container">
+    <button class="remove-section">Remove</button>
+    <button class="total-section"><a href="./order.html">Proceed to pay</button></a>
   </div>
-    <!-- first end -->
-    <!-- second start-->
-      <div class="product-card">
-  <img src="./images/plum_perfume.png" class="card-img-top" alt="...">
-    <h3>Plum BodyLovin' Vanilla Vibes Perfume</h3>
-    <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i>248</p>
-    <div class="quantity">
-        Qty:<input type="number" value="1">
-    </div>
-     <button class="button mt-3"><a href="./order.html">Buy Now</button></a>
-     <button class="button mt-3">Remove</button>
-  </div>
-   <!-- second end -->
-    <!-- third start -->
-       <div class="product-card">
-  <img src="./images/serum.png" class="card-img-top" alt="...">
-    <h3>Niacinamide Face Serum</h3>
-    <p>DERMDOC by Purplle 10% Niacinamide </p>
-    <p class="price"><i class="fa-solid fa-indian-rupee-sign"></i>234</p>
-    <div class="quantity">
-        Qty:<input type="number" value="1">
-    </div>
-     <button class="button mt-3"><a href="./order.html">Buy Now</button></a>
-     <button class="button mt-3">Remove</button>
-  </div>
-  </div>
-     <!-- third end -->
+
 </body>
 </html>
